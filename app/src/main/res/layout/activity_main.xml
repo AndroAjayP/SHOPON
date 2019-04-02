@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back14"
+    android:focusableInTouchMode="true"
+    tools:context=".LoginSignUp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#96ffffff"
+            android:theme="@style/EditScreenTextInputLayoutStyle">
+
+            <EditText
+                android:id="@+id/Email_id"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/button_circular"
+                android:drawableEnd="@drawable/ic_email_white_24dp"
+                android:fontFamily="@font/calibri"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:textColor="#FCF7F7"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#96ffffff"
+            android:theme="@style/EditScreenTextInputLayoutStyle">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/button_circular"
+                android:drawableRight="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#FCF7F7"
+                android:textSize="16sp"  />
+        </android.support.design.widget.TextInputLayout>
+        <CheckBox
+            android:id="@+id/kepploged"
+            android:layout_width="match_parent"
+            android:textColor="#FCF7F7"
+            android:layout_margin="5dp"
+            android:textColorHint="#FCF7F7"
+            android:outlineSpotShadowColor="#FCF7F7"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:text="Keep Me Loged In" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="@drawable/button_background_fill"
+                android:fontFamily="@font/josefin_bold"
+                android:text="Login"
+                android:textColor="#FCFAFA"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefin_bold"
+            android:text="SignUp"
+            android:textAlignment="center"
+            android:textColor="#96ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="594dp"
+        app:srcCompat="@drawable/shopon3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/calibri"
+        android:text="SHOPON"
+        android:textColor="#131313"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

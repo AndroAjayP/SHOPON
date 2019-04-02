@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EEEAEA"
+    android:layout_height="match_parent"
+    tools:context=".cart_and_payement.Delivery">
+    <include
+        layout="@layout/payment_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="87dp"
+        android:background="#FAF7F7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Name_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/gotham"
+            android:text="Name is" />
+
+        <TextView
+            android:id="@+id/Address_of_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Mobile no of user" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="273dp"
+        android:background="#FAF7F7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Produc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/gotham"
+            android:text="Product Detail" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="160dp"
+                android:padding="8dp"
+                android:text="Description" />
+
+            <TextView
+                android:id="@+id/desc_of_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="desc here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="295dp"
+                android:padding="8dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/simple_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rupay" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="179dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="461dp"
+        android:background="#FAF7F7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham"
+            android:padding="5dp"
+            android:text="PRICE DETAIL"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="295dp"
+                android:padding="8dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/d_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rupay" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="280dp"
+                android:padding="8dp"
+                android:text="Delivery" />
+
+            <TextView
+                android:id="@+id/DAmmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textColor="#CA092F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pricetag"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="173dp"
+                android:padding="8dp"
+                android:text="Total Ammount Payable" />
+
+            <TextView
+                android:id="@+id/Ammount_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rupay" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#EAEBEE"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/rupay3" />
+
+        <TextView
+            android:id="@+id/price_ammount"
+            android:layout_width="124dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/josefin_bold"
+            android:text="Price"
+            android:textColor="#070707"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/continue_for_nextPage"
+            android:layout_width="181dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="50dp"
+            android:background="#E90B6F"
+            android:fontFamily="@font/gotham"
+            android:text="Continue"
+            android:textAlignment="center"
+            android:textColor="#F7F5F5"
+            android:textSize="19sp" />
+    </LinearLayout>
+</RelativeLayout>

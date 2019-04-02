@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cart_and_payement.PayTM">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/gotham"
+        android:text="Scan To Pay"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="309dp"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="163dp"
+        app:srcCompat="@drawable/qrcode" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginBottom="211dp"
+        android:fontFamily="@font/gotham"
+        android:text="OR"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="247dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/circular_corner_design"
+        android:elevation="4dp"
+        android:fontFamily="@font/gotham"
+        android:gravity="center"
+        android:text="Mobile no"
+        android:textColor="#FCFAFA"
+        android:textSize="25sp" />
+</RelativeLayout>

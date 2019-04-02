@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ShoponU</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Shopon</string>
+    <string name="slide_1_desc">The easiest way of Shopping from your nearest malls!</string>
+
+    <string name="slide_2_title">Save time</string>
+    <string name="slide_2_desc">We can see the list of all malls and their products in your mobile phone!</string>
+
+    <string name="slide_3_title">Discount offers</string>
+    <string name="slide_3_desc">update with  discount offer without going to malls!</string>
+
+    <string name="slide_4_title">let\'s Start</string>
+    <string name="slide_4_desc">move to your real work..!</string>
+
+
+    <string name="hint_email">Enter email address</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_password_confirm">Confirm password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="text_signin">Login</string>
+    <string name="title_activity_product_collection">product_collection</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

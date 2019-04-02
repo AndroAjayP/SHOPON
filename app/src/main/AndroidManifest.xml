@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopon_4users">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/shopon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cart_and_payement.PayTM">
+
+        </activity>
+        <activity android:name=".Spalsh_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".cart_and_payement.End_Activity" />
+        <activity android:name=".cart_and_payement.Final_payement_process" />
+        <activity android:name=".cart_and_payement.Delivery" />
+        <activity android:name=".cart_and_payement.cart_product_summary" />
+        <activity android:name=".cart_and_payement.Cart_items" />
+        <activity android:name=".Vendor_product_collection.Product_Summary" />
+        <activity android:name=".LoginSignUp.LoginORsignup" />
+        <activity android:name=".cart_and_payement.Gallery_image_click" />
+        <activity
+            android:name=".Vendor_product_collection.product_collection"
+            android:label="@string/title_activity_product_collection"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".product_categories.Choose_product_categories" />
+        <activity android:name=".LoginSignUp.signupActivity" />
+        <activity android:name=".product_categories.Home" />
+        <activity android:name=".LoginSignUp.MainActivity" />
+        <activity android:name=".WelcomeActivity"></activity>
+    </application>
+
+</manifest>
